@@ -40,7 +40,7 @@ export default function GithubSearch() {
   return (
     <div className="w-full max-w-2xl bg-white/10 backdrop-blur-md rounded-lg p-8 space-y-6">
       <div className="flex flex-col items-center space-y-4">
-        <img src="github.svg" alt="GitHub Logo" className="w-48 h-48" />
+        <img src={`${import.meta.env.BASE_URL}github.svg`} alt="GitHub Logo" className="w-48 h-48" />
         <h1 className="text-3xl font-bold text-white">Perfil GitHub</h1>
       </div>
 
